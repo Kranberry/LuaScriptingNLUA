@@ -1,0 +1,185 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "KeraLua/1.2.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/KeraLua.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/KeraLua.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/liblua54.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/liblua54.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/lua54.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/lua54.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "NLua/1.5.6": {
+        "type": "package",
+        "dependencies": {
+          "KeraLua": "1.2.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/NLua.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NLua.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeraLua/1.2.10": {
+      "sha512": "sZ/3WaBqqePlKjC7ka3Z6QL661wy05YkIZ/bKDj3uYMrTS0c0db2IXBP6oDQJ8YkNvIvyJj+i8pIQD5DFHt38Q==",
+      "type": "package",
+      "path": "keralua/1.2.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/net45/KeraLua.targets",
+        "keralua.1.2.10.nupkg.sha512",
+        "keralua.nuspec",
+        "lib/MonoAndroid/KeraLua.dll",
+        "lib/MonoAndroid/KeraLua.xml",
+        "lib/net45/KeraLua.dll",
+        "lib/net45/KeraLua.xml",
+        "lib/netcoreapp3.1/KeraLua.dll",
+        "lib/netcoreapp3.1/KeraLua.xml",
+        "lib/netstandard2.0/KeraLua.dll",
+        "lib/netstandard2.0/KeraLua.xml",
+        "lib/uap10.0/KeraLua.dll",
+        "lib/uap10.0/KeraLua.pri",
+        "lib/uap10.0/KeraLua.xml",
+        "lib/xamarinios/KeraLua.dll",
+        "lib/xamarinios/KeraLua.xml",
+        "lib/xamarinmac/KeraLua.dll",
+        "lib/xamarinmac/KeraLua.xml",
+        "lib/xamarintvos/KeraLua.dll",
+        "lib/xamarintvos/KeraLua.xml",
+        "lib/xamarinwatchos/KeraLua.dll",
+        "lib/xamarinwatchos/KeraLua.xml",
+        "runtimes/linux-x64/native/liblua54.so",
+        "runtimes/osx/native/liblua54.dylib",
+        "runtimes/win-x64/native/lua54.dll",
+        "runtimes/win-x86/native/lua54.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/lua54.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/lua54.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/lua54.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/lua54.dll"
+      ]
+    },
+    "NLua/1.5.6": {
+      "sha512": "oTwZeXd7VrMCQdy90wZaoDxEItyTuGdidYGZE2E857ZI8dI3FGVw6U5sD9gRN1VU+Pn3EkRmR/Ge13z5X321Ag==",
+      "type": "package",
+      "path": "nlua/1.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/MonoAndroid/NLua.dll",
+        "lib/net45/NLua.dll",
+        "lib/netcoreapp3.1/NLua.dll",
+        "lib/netstandard2.0/NLua.dll",
+        "lib/uap10.0/NLua.dll",
+        "lib/uap10.0/NLua.pri",
+        "lib/xamarinios/NLua.dll",
+        "lib/xamarinmac/NLua.dll",
+        "lib/xamarintvos/NLua.dll",
+        "lib/xamarinwatchos/NLua.dll",
+        "nlua.1.5.6.nupkg.sha512",
+        "nlua.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "NLua >= 1.5.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jesus Kvistus\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#_Projects\\LuaScriptingNLUA\\LuaScriptingNLUA.csproj",
+      "projectName": "LuaScriptingNLUA",
+      "projectPath": "D:\\C#_Projects\\LuaScriptingNLUA\\LuaScriptingNLUA.csproj",
+      "packagesPath": "C:\\Users\\Jesus Kvistus\\.nuget\\packages\\",
+      "outputPath": "D:\\C#_Projects\\LuaScriptingNLUA\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jesus Kvistus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "NLua": {
+            "target": "Package",
+            "version": "[1.5.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

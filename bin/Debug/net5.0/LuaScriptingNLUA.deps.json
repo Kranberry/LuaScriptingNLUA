@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LuaScriptingNLUA/1.0.0": {
+        "dependencies": {
+          "NLua": "1.5.6"
+        },
+        "runtime": {
+          "LuaScriptingNLUA.dll": {}
+        }
+      },
+      "KeraLua/1.2.10": {
+        "runtime": {
+          "lib/netcoreapp3.1/KeraLua.dll": {
+            "assemblyVersion": "1.2.10.0",
+            "fileVersion": "1.2.10.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/liblua54.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/liblua54.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/lua54.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.4.0.0"
+          },
+          "runtimes/win-x86/native/lua54.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "5.4.0.0"
+          }
+        }
+      },
+      "NLua/1.5.6": {
+        "dependencies": {
+          "KeraLua": "1.2.10"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NLua.dll": {
+            "assemblyVersion": "1.5.6.0",
+            "fileVersion": "1.5.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LuaScriptingNLUA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KeraLua/1.2.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sZ/3WaBqqePlKjC7ka3Z6QL661wy05YkIZ/bKDj3uYMrTS0c0db2IXBP6oDQJ8YkNvIvyJj+i8pIQD5DFHt38Q==",
+      "path": "keralua/1.2.10",
+      "hashPath": "keralua.1.2.10.nupkg.sha512"
+    },
+    "NLua/1.5.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTwZeXd7VrMCQdy90wZaoDxEItyTuGdidYGZE2E857ZI8dI3FGVw6U5sD9gRN1VU+Pn3EkRmR/Ge13z5X321Ag==",
+      "path": "nlua/1.5.6",
+      "hashPath": "nlua.1.5.6.nupkg.sha512"
+    }
+  }
+}

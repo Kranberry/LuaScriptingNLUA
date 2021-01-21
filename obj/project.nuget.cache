@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sph4VfA1BP/z0VNfmYLpEzC4833KVJtAZ1iqesbBVc6JhpIsuvEX7KulUgFRtP2qFs9ZmkO+MeXtE0LldEVsCQ==",
+  "success": true,
+  "projectFilePath": "D:\\C#_Projects\\LuaScriptingNLUA\\LuaScriptingNLUA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jesus Kvistus\\.nuget\\packages\\keralua\\1.2.10\\keralua.1.2.10.nupkg.sha512",
+    "C:\\Users\\Jesus Kvistus\\.nuget\\packages\\nlua\\1.5.6\\nlua.1.5.6.nupkg.sha512"
+  ],
+  "logs": []
+}
